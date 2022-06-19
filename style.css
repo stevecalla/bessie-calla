@@ -25,7 +25,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 16vh;
   width: 100vw;
   position: absolute;
 }
@@ -61,8 +61,8 @@ section div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 82vh;
-  top: 15vh;
+  height: 85vh;
+  top: 16vh;
   overflow: scroll;
   position: relative;
 }
