@@ -34,7 +34,7 @@ header {
 section {
   display: flex;
   justify-content: center;
-  height: 5vh;
+  height: 8vh;
   width: 100%;
   margin-right: 20px;
 }
@@ -61,7 +61,7 @@ section div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  height: 85vh;
+  height: 82vh;
   top: 15vh;
   overflow: scroll;
   position: relative;
