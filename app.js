@@ -28,9 +28,10 @@ function createRandomOrder(photos) {
 }
 
 function loadPhotoDetails(photoList) {
-  console.log(photoList);
+  // console.log(photoList);
   let displayPhotos = createRandomOrder(photoList);
   for (let i = 0; i < photoList.length; i++) {
+    // console.log(i);
     let position = displayPhotos[i];
     document.querySelector(".container").innerHTML += `
       <div class="${photoList[position].size} photo-container">  
@@ -42,7 +43,7 @@ function loadPhotoDetails(photoList) {
         <p class="title-location">${photoList[position].caption}</p>
         <img
         src="./assets/images/${photoList[position].address}"
-        alt="${photoList[i].caption}"
+        alt="${photoList[position].caption}"
         loading="lazy"
         />
       </div>
