@@ -122,7 +122,7 @@ let photoDetails = [
   {
     address: "21_bessie_foothills.jpg",
     size: "big",
-    caption: "Bessie at foothills park",
+    caption: "Bessie at foothills park with ball",
     type: "photo",
   },
   {
@@ -182,7 +182,7 @@ let photoDetails = [
   {
     address: "31_bessie_chancey_play.jpg",
     size: "big",
-    caption: "Bessie with chancey",
+    caption: "Bessie with Chancey",
     type: "photo",
   },
   {
@@ -206,13 +206,19 @@ let photoDetails = [
   {
     address: "35_bessie_snarl.jpg",
     size: "big",
-    caption: "Bessie snarling at Katie",
+    caption: "Bessie snarling at Katie for ball",
     type: "photo",
   },
   {
     address: "36_bessie_belly_rub.jpg",
     size: "normal",
     caption: "Bessie belly rubs",
+    type: "photo",
+  },
+  {
+    address: "37_BessieInTheMountians022322.png",
+    size: "big",
+    caption: "Bessie running in snow & mountains",
     type: "photo",
   },
 ];

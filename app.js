@@ -6,7 +6,7 @@ inputText.addEventListener("input", getInput);
 function clearAndLoadPhotos(photoList) {
   clearPhotos();
   loadPhotoDetails(photoList);
-  if (photoList.length === 36) {
+  if (photoList.length === 37) {
     loadVideo();
   }
 }
